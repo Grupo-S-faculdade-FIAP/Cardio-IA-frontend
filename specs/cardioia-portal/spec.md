@@ -38,6 +38,13 @@ Students demonstrating a front-end assignment and a fictional cardiology-clinic 
 7. The main flows are usable on narrow screens and the interface identifies itself as a demo.
 8. A theme control switches the complete interface between light and dark palettes, and the choice survives refresh and route changes.
 
+## Academic submission requirements
+
+1. The GitHub repository is public and uses the final group slug requested by the course.
+2. The source tree includes the required `contexts`, `components`, `services`, and `pages` folders.
+3. The README documents install/run commands and lists every member's full name and RM.
+4. The README links to a complete demo video, at most four minutes long, published as unlisted on YouTube.
+
 ## Risks and constraints
 
 - The token is unsigned and only simulates a session. It provides no security.

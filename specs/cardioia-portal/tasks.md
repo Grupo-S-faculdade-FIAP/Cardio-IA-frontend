@@ -1,5 +1,14 @@
 # Implementation Tasks
 
+## FIAP submission checklist
+
+- [x] Confirm repository is public and default branch is `main`.
+- [x] Document installation and execution commands in README.
+- [x] Add the supplied member names and RMs to README.
+- [ ] Confirm the final group slug and rename the repository if required; current name is `Cardio-IA-frontend`.
+- [ ] Align or confirm the required `contexts` and `services` folder names; current source folders are `context` and `data`.
+- [ ] Record a complete demo video of at most four minutes, publish it as unlisted on YouTube, and add its link to README.
+
 - [x] Add persistent theme Context and accessible toggle controls.
 - [x] Define dark semantic tokens and adapt shared surfaces, inputs, and status states.
 - [x] Verify light/dark coverage, persistence, and contrast in browser.

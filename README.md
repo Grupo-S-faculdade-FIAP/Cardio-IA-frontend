@@ -6,6 +6,16 @@
 
 > **Protótipo acadêmico:** aplicação exclusivamente front-end, sem backend ou autenticação real. Todos os registros são fictícios.
 
+## Integrantes
+
+| Nome completo | RM |
+|---|---|
+| Caroline de Castro Corrêa | RM567255 |
+| Enzo França Sader | RM566928 |
+| Lucas Hideki Oliveira Koyama | RM566925 |
+| Rodrigo Dias Figueiroa | RM567800 |
+| Tiago Lindgren Curi | RM567016 |
+
 ## Capturas de tela
 
 <table>
