@@ -20,7 +20,7 @@ export default [
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.flat.recommended.rules,
-        'react-refresh/only-export-components': ['warn', { allowConstantExport: true, allowExportNames: ['useAuth', 'useAppointments'] }],
+        'react-refresh/only-export-components': ['warn', { allowConstantExport: true, allowExportNames: ['useAuth', 'useAppointments', 'useTheme'] }],
     },
   },
 ]

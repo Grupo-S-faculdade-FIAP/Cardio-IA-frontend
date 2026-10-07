@@ -20,7 +20,7 @@ npm run build
 
 ## Acesso de demonstração
 
-Abra `/login` e use o e-mail pré-preenchido ou qualquer e-mail válido. Não há senha nem autenticação real. O portal contém visão geral, lista pesquisável de pacientes e agendamento de consultas; agendamentos são salvos no `localStorage` deste navegador.
+Abra `/login` e use o e-mail pré-preenchido ou qualquer e-mail válido. Não há senha nem autenticação real. O portal contém visão geral, lista pesquisável de pacientes e agendamento de consultas; agendamentos e preferência claro/escuro são salvos no `localStorage` deste navegador.
 
 ## Estrutura
 

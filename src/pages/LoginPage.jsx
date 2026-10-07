@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowRight, HeartPulse, ShieldCheck } from 'lucide-react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext.jsx'
+import { ThemeToggle } from '../components/ThemeToggle.jsx'
 
 export function LoginPage() {
   const { user, login } = useAuth()
@@ -39,6 +40,7 @@ export function LoginPage() {
         <div className="login-footer">CardioIA · Ambiente acadêmico demonstrativo</div>
       </section>
       <section className="login-panel">
+        <ThemeToggle className="login-theme-toggle" />
         <div className="login-card">
           <div className="login-brand mobile-brand"><span className="brand-mark"><HeartPulse aria-hidden="true" /></span><span>CardioIA</span></div>
           <div className="eyebrow">Acesso ao portal</div>

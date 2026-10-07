@@ -2,6 +2,7 @@ import { Activity, CalendarDays, HeartPulse, LayoutDashboard, LogOut, Users } fr
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext.jsx'
 import styles from './AppShell.module.css'
+import { ThemeToggle } from './ThemeToggle.jsx'
 
 const navigation = [
   { to: '/app', label: 'Visão geral', icon: LayoutDashboard, end: true },
@@ -47,7 +48,7 @@ export function AppShell() {
       <div className="main-area">
         <header className="topbar">
           <div className="breadcrumb">CardioIA <span aria-hidden="true"> / </span> <strong>{pageNames[location.pathname] || 'Consultas'}</strong></div>
-          <div className="topbar-actions"><span className="today-label">{today}</span><span className="profile-avatar">{displayName.slice(0, 1).toUpperCase()}</span></div>
+          <div className="topbar-actions"><ThemeToggle /><span className="today-label">{today}</span><span className="profile-avatar">{displayName.slice(0, 1).toUpperCase()}</span></div>
         </header>
         <main className="main-content"><Outlet /></main>
       </div>

@@ -2,7 +2,7 @@
 
 ## Status
 
-Implemented baseline · 2026-10-06
+Implemented baseline and persistent dark mode · 2026-10-06
 
 ## Goal
 
@@ -19,6 +19,7 @@ Students demonstrating a front-end assignment and a fictional cardiology-clinic 
 - Local JSON patient fixtures served through a Promise-based fake API.
 - Appointment form using `useState` and `useReducer`, with localStorage persistence.
 - Dashboard metrics and a weekly appointment visualization.
+- Persistent light/dark theme preference available on login and authenticated pages.
 - Responsive styling, CSS Modules, accessibility basics, and DesignMD public tokens.
 
 ## Out of scope
@@ -35,6 +36,7 @@ Students demonstrating a front-end assignment and a fictional cardiology-clinic 
 5. A user can schedule an appointment for a fixture patient, and the list/dashboard update and persist locally.
 6. The form rejects incomplete fields and a conflicting date/time slot.
 7. The main flows are usable on narrow screens and the interface identifies itself as a demo.
+8. A theme control switches the complete interface between light and dark palettes, and the choice survives refresh and route changes.
 
 ## Risks and constraints
 
@@ -42,3 +44,4 @@ Students demonstrating a front-end assignment and a fictional cardiology-clinic 
 - Data in localStorage is browser-local, resettable, and unsuitable for health information.
 - Patient and appointment examples are invented and intended only for interface demonstration.
 - Google Fonts require network access; CSS font fallbacks remain available.
+- Theme preference is a visual setting stored locally and does not affect authentication or data.

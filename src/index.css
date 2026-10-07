@@ -2,17 +2,94 @@
   font-family: 'DM Sans', sans-serif;
   color: #1f2825;
   background: #f7f8f6;
+  color-scheme: light;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   --teal: #124548;
   --orange: #ff4800;
+  --brand-solid: #124548;
+  --brand-hover: #0d393b;
+  --page-bg: #f7f8f6;
+  --panel: #ffffff;
+  --surface-raised: #ffffff;
+  --surface-subtle: #fafbf9;
+  --surface-highlight: #eaf1ef;
+  --surface-note: #f1f6f4;
+  --surface-orange: #fff0e9;
   --ink: #1f2825;
+  --text-secondary: #59635f;
   --muted: #7a8580;
   --line: #e5eae7;
+  --line-soft: #edf0ee;
+  --input-border: #dce3df;
+  --control-bg: #ffffff;
+  --control-text: #303b37;
+  --placeholder: #98a19d;
+  --header-surface: rgb(255 255 255 / 94%);
+  --status-ok-bg: #eaf4ee;
+  --status-ok-text: #38704b;
+  --status-pending-bg: #fff3e8;
+  --status-pending-text: #a75c23;
+  --error-bg: #fff0eb;
+  --error-text: #a7482b;
+  --avatar-neutral-bg: #f6dfd5;
+  --avatar-neutral-text: #8f4d38;
+  --avatar-green-bg: #e3eee8;
+  --avatar-green-text: #386a56;
+  --avatar-coral-bg: #f7e4dc;
+  --avatar-coral-text: #9c5d48;
+  --avatar-blue-bg: #e2ebf4;
+  --avatar-blue-text: #4c6d89;
+  --avatar-yellow-bg: #f5edcf;
+  --avatar-yellow-text: #84713b;
   --surface: #fcfcfa;
   --display: 'DM Serif Display', Georgia, serif;
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  color: #edf3f0;
+  background: #141b19;
+  --teal: #8acbb7;
+  --orange: #ff9a72;
+  --brand-solid: #225a4d;
+  --brand-hover: #2a6b5a;
+  --page-bg: #141b19;
+  --panel: #1d2724;
+  --surface: #192320;
+  --surface-raised: #26322e;
+  --surface-subtle: #202b28;
+  --surface-highlight: #2a3d37;
+  --surface-note: #20342e;
+  --surface-orange: #493126;
+  --ink: #edf3f0;
+  --text-secondary: #c0cbc6;
+  --muted: #a2b0aa;
+  --line: #3a4743;
+  --line-soft: #2d3935;
+  --input-border: #43514b;
+  --control-bg: #18211e;
+  --control-text: #e4ece8;
+  --placeholder: #95a39d;
+  --header-surface: rgb(20 29 26 / 95%);
+  --status-ok-bg: #263e31;
+  --status-ok-text: #a4d8b1;
+  --status-pending-bg: #453321;
+  --status-pending-text: #f0bd89;
+  --error-bg: #472d28;
+  --error-text: #ffb29a;
+  --avatar-neutral-bg: #49342d;
+  --avatar-neutral-text: #ffd0bd;
+  --avatar-green-bg: #294037;
+  --avatar-green-text: #b1ddc1;
+  --avatar-coral-bg: #49342e;
+  --avatar-coral-text: #ffc2aa;
+  --avatar-blue-bg: #2c3c49;
+  --avatar-blue-text: #b9d4ec;
+  --avatar-yellow-bg: #453e29;
+  --avatar-yellow-text: #eadb9e;
 }
 
 * {
@@ -23,6 +100,9 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
+  background: var(--page-bg);
+  color: var(--ink);
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 button,

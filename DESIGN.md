@@ -21,6 +21,20 @@ This project uses the publicly visible DesignMD HubSpot token preview as a refer
 - Keep layouts responsive, keyboard-focusable and respectful of reduced-motion preferences.
 - Every patient and appointment shown by the prototype is fictional. Do not enter real health information.
 
+## Dark theme
+
+The persisted dark palette keeps the same teal identity while shifting surfaces to deep green-charcoal values. Controls and text use semantic tokens so cards, tables, forms, status pills, and the login panel remain readable in both themes.
+
+| Token | Dark value |
+| --- | --- |
+| Brand action | `#225a4d` |
+| Page background | `#141b19` |
+| Panel | `#1d2724` |
+| Sidebar surface | `#192320` |
+| Primary text | `#edf3f0` |
+| Secondary text | `#c0cbc6` |
+| Border | `#3a4743` |
+
 ## Source note
 
 The public DesignMD page lists HubSpot's primary color as `#124548`, background as `#ffffff`, surface as `#fcfcfa`, and accent as `#ff4800`. HubSpot's proprietary fonts are not bundled; this interface uses available Google Fonts equivalents.
