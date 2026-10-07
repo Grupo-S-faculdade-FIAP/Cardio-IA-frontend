@@ -1,0 +1,42 @@
+:root {
+  font-family: 'DM Sans', sans-serif;
+  color: #1f2825;
+  background: #f7f8f6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --teal: #124548;
+  --orange: #ff4800;
+  --ink: #1f2825;
+  --muted: #7a8580;
+  --line: #e5eae7;
+  --surface: #fcfcfa;
+  --display: 'DM Serif Display', Georgia, serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--orange);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #ff480033;
+}

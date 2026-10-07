@@ -1,0 +1,9 @@
+[
+  { "id": 101, "name": "Helena Martins", "email": "helena.martins@example.com", "age": 64, "condition": "Hipertensão", "lastVisit": "2026-09-28", "status": "Acompanhamento", "tone": "" },
+  { "id": 102, "name": "Rafael Costa", "email": "rafael.costa@example.com", "age": 52, "condition": "Arritmia", "lastVisit": "2026-09-25", "status": "Acompanhamento", "tone": "coral" },
+  { "id": 103, "name": "Beatriz Almeida", "email": "beatriz.almeida@example.com", "age": 39, "condition": "Prevenção", "lastVisit": "2026-09-22", "status": "Estável", "tone": "blue" },
+  { "id": 104, "name": "João Ferreira", "email": "joao.ferreira@example.com", "age": 71, "condition": "Insuficiência cardíaca", "lastVisit": "2026-09-18", "status": "Acompanhamento", "tone": "yellow" },
+  { "id": 105, "name": "Camila Rocha", "email": "camila.rocha@example.com", "age": 45, "condition": "Colesterol alto", "lastVisit": "2026-09-15", "status": "Estável", "tone": "coral" },
+  { "id": 106, "name": "Marcos Oliveira", "email": "marcos.oliveira@example.com", "age": 58, "condition": "Hipertensão", "lastVisit": "2026-09-11", "status": "Acompanhamento", "tone": "blue" },
+  { "id": 107, "name": "Lívia Santos", "email": "livia.santos@example.com", "age": 33, "condition": "Prevenção", "lastVisit": "2026-09-08", "status": "Estável", "tone": "yellow" }
+]
